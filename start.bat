@@ -55,9 +55,21 @@ echo  %l%>etc/.htpasswd
 set l=
 echo  %l%>etc/.gitignore
 
-:: Create robot.txt file
+:: Create .gitattributes file in ETC directory
 set l=
-echo  %l%>robot.txt
+echo  %l%>etc/.gitattributes
+
+:: Create .gitkeep file in ETC directory
+set l=
+echo  %l%>etc/.gitkeep
+
+:: Create favicon.ico file
+set l=
+echo  %l%>favicon.ico
+
+:: Create robots.txt file
+set l=
+echo  %l%>robots.txt
 
 :: Create sitemap.xml file
 set l=
