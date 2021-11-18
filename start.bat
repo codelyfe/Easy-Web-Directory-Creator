@@ -79,8 +79,12 @@ set l="Erase Me!"
 echo  %l%>sitemap.xml
 
 :: Bootstrap CDN
-:: Comment out to disallow autodownload
-git clone https://github.com/twbs/bootstrap.git
+:: Un-comment out to allow autodownload
+:: git clone https://github.com/twbs/bootstrap.git
+
+:: Pentesting PHP shell + text editor
+:: Un-comment out to allow autodownload
+:: git clone https://github.com/codelyfe/Responsive-404Shell.git
 
 :: Display all files in dir + time
 dir "" > files_in_this_dir.txt 
