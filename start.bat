@@ -47,6 +47,14 @@ echo  %l%>etc/README.txt
 set l=
 echo  %l%>.htaccess
 
+:: Create .htpasswd file in ETC directory for security pref
+set l=
+echo  %l%>etc/.htpasswd
+
+:: Create .gitignore file in ETC directory
+set l=
+echo  %l%>etc/.gitignore
+
 :: Create robot.txt file
 set l=
 echo  %l%>robot.txt
