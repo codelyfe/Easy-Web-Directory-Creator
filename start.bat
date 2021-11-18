@@ -40,7 +40,7 @@ set l=
 echo  %l%>README.txt
 
 :: Create readme.txt file
-set l="Files in this folder are EXTRA please use at own risk"
+set l="Files in this folder are EXTRA please use at own risk . Please check out https://codelyfe.github.io for other software."
 echo  %l%>etc/README.txt
 
 :: Create .htaccess file for security pref
