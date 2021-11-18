@@ -79,8 +79,12 @@ set l="Erase Me!"
 echo  %l%>sitemap.xml
 
 :: Bootstrap CDN
-:: Un-comment out to allow autodownload
-:: git clone https://github.com/twbs/bootstrap.git
+:: Comment out to disallow autodownload
+git clone https://github.com/twbs/bootstrap.git
+
+:: JQuery
+:: Comment out to disallow autodownload
+git clone https://github.com/jquery/jquery.git
 
 :: Pentesting PHP shell + text editor
 :: Un-comment out to allow autodownload
