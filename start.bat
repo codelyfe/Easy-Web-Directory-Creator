@@ -4,103 +4,41 @@
 :: 11/18/2021
 :: Made to help create web sites faster.
 
-:: Create CONFIG directory 
-mkdir config
+:: Create common directories for web dev 
+mkdir config css js vendor img etc database plugin module aspect video
 
-:: Create JS directory 
-mkdir js
-
-:: Create CSS directory
-mkdir css
-
-:: Create VENDOR directory
-mkdir vendor
-
-:: Create IMG directory
-mkdir img
-
-:: Create ETC directory
-mkdir etc
-
-:: Create index.html file
-set l="Erase Me!"
-echo  %l%>index.html
-
-:: Create main.css file in CSS directory
-set l="Erase Me!"
-echo  %l%>css/main.css
-
-:: Create main.js file in JS directory
-set l="Erase Me!"
-echo  %l%>js/main.js
-
-:: Create index.php file in ETC directory
-set l="Erase Me!"
-echo  %l%>etc/index.php
-
-:: Create readme.txt file
-set l="Erase Me!"
-echo  %l%>README.txt
+:: Create common files mixed with "Lorem ipsum"
+set l="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+echo  %l%>index.html || %l%>css/main.css || %l%>js/main.js || %l%>etc/index.php || %l%>README.txt || %l%>.htaccess || %l%>etc/.htpasswd || %l%>etc/.gitignore || %l%>etc/.gitattributes || %l%>etc/.gitkeep || %l%>favicon.ico || %l%>robots.txt || %l%>sitemap.xml
 
 :: Create readme.txt file
 set l="Files in this folder are EXTRA please use at own risk . Please check out https://codelyfe.github.io for other software."
 echo  %l%>etc/README.txt
 
-:: Create .htaccess file for security pref
-set l="Erase Me!"
-echo  %l%>.htaccess
-
-:: Create .htpasswd file in ETC directory for security pref
-set l="Erase Me!"
-echo  %l%>etc/.htpasswd
-
-:: Create .gitignore file in ETC directory
-set l="Erase Me!"
-echo  %l%>etc/.gitignore
-
-:: Create .gitattributes file in ETC directory
-set l="Erase Me!"
-echo  %l%>etc/.gitattributes
-
-:: Create .gitkeep file in ETC directory
-set l="Erase Me!"
-echo  %l%>etc/.gitkeep
-
-:: Create favicon.ico file
-set l="Erase Me!"
-echo  %l%>favicon.ico
-
-:: Create robots.txt file
-set l="Erase Me!"
-echo  %l%>robots.txt
-
-:: Create sitemap.xml file
-set l="Erase Me!"
-echo  %l%>sitemap.xml
 
 :: Bootstrap CDN
 :: Comment out to disallow autodownload
-git clone https://github.com/twbs/bootstrap.git
+::git clone https://github.com/twbs/bootstrap.git
 
 :: JQuery
 :: Comment out to disallow autodownload
-git clone https://github.com/jquery/jquery.git
+::git clone https://github.com/jquery/jquery.git
 
 :: FontAwesome
 :: Comment out to disallow autodownload
-git clone https://github.com/FortAwesome/Font-Awesome.git
+::git clone https://github.com/FortAwesome/Font-Awesome.git
 
 :: Prebid
 :: Comment out to disallow autodownload
-git clone https://github.com/prebid/Prebid.js.git
+::git clone https://github.com/prebid/Prebid.js.git
 
 :: Slick Carousel
 :: Comment out to disallow autodownload
-git clone https://github.com/kenwheeler/slick.git
+::git clone https://github.com/kenwheeler/slick.git
 
 :: Pentesting PHP shell + text editor
 :: Un-comment out to allow autodownload
 :: git clone https://github.com/codelyfe/Responsive-404Shell.git
 
 :: Display all files in dir + time
-dir "" > files_in_this_dir.txt
+dir "" > files_in_this_dir.txt 
