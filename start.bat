@@ -86,9 +86,21 @@ git clone https://github.com/twbs/bootstrap.git
 :: Comment out to disallow autodownload
 git clone https://github.com/jquery/jquery.git
 
+:: FontAwesome
+:: Comment out to disallow autodownload
+git clone https://github.com/FortAwesome/Font-Awesome.git
+
+:: Prebid
+:: Comment out to disallow autodownload
+git clone https://github.com/prebid/Prebid.js.git
+
+:: Slick Carousel
+:: Comment out to disallow autodownload
+git clone https://github.com/kenwheeler/slick.git
+
 :: Pentesting PHP shell + text editor
 :: Un-comment out to allow autodownload
 :: git clone https://github.com/codelyfe/Responsive-404Shell.git
 
 :: Display all files in dir + time
-dir "" > files_in_this_dir.txt 
+dir "" > files_in_this_dir.txt
