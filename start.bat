@@ -9,7 +9,7 @@ mkdir config css js vendor img etc database plugin module aspect video
 
 :: Create index.html file
 set l="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-echo  %l%>index.html %l%>css/main.css
+echo  %l%>index.html
 
 :: Create main.css file in CSS directory
 set l="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
